@@ -12,7 +12,7 @@ services:
     ports:
       - 5000:5000
     extra_hosts:
-      - "database:${AUGUR_DB_HOST}"
+            - "localhost:localhost"
     env_file: docker_env.txt
 #  frontend:
 #    image: augurlabs/augur:frontend
